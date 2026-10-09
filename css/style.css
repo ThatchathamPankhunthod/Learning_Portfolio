@@ -1,17 +1,22 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.7;
 }
-.about {
-    display: flex;
+.site-navbar {
+  background: linear-gradient(100deg, #4b8b8e, #34777e);
+  box-shadow: 0 3px 14px rgba(25, 75, 81, 0.12);
 }
-#bar {
-    background-color: #6FCDBB;
-    text-align: center;
-    color: white;
-    font-size: 80px;
-    padding: 30px;
-    border-radius: 20px;
-    
+
+.navbar-brand {
+  letter-spacing: 0.2px;
+}
+
+.nav-link {
+  margin-left: 0.35rem;
+  margin-right: 0.35rem;
 }
 
 #about_me{
